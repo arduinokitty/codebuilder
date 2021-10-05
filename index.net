@@ -1,0 +1,18 @@
+using System;
+
+namespace Calculator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+       
+           console.WriteLine("Hello people!");
+           console.WriteLine("Type if you want to use this app");
+           if(console.ReadLine() == 'Yes'){
+           console.WriteLine("Yay");
+           }
+           
+        }
+    }
+}
